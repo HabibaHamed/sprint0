@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m"Adding 3 sections of book Chacon, Scott, and Ben Straub. Pro Git. Apress, 2014."
+git rm section3.1.pdf
+git reset HEAD
+git log
+git remote add origin https://github.com/HabibaHamed/sprint0.git
+git push origin master
